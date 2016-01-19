@@ -27,9 +27,9 @@ case $POWERLEVEL9K_MODE in
       RIGHT_SUBSEGMENT_SEPARATOR     $'\UE0B3'              # 
       CARRIAGE_RETURN_ICON           $'\U21B5'              # ↵
       ROOT_ICON                      $'\UE801'              # 
-      RUBY_ICON                      $'\UE847'              # 
+      RUBY_ICON                      $'\UF219'              # 
       AWS_ICON                       $'\UE895'              # 
-      BACKGROUND_JOBS_ICON           $'\UE82F '             # 
+      BACKGROUND_JOBS_ICON           $' \UF021'             # 
       TEST_ICON                      $'\UE891'              # 
       TODO_ICON                      $'\U2611'              # ☑
       BATTERY_ICON                   $'\UE894'              # 
@@ -39,32 +39,34 @@ case $POWERLEVEL9K_MODE in
       NODE_ICON                      $'\U2B22'              # ⬢
       MULTILINE_FIRST_PROMPT_PREFIX  $'\U256D'$'\U2500'
       MULTILINE_SECOND_PROMPT_PREFIX $'\U2570'$'\U2500 '
-      APPLE_ICON                     $'\UE26E'              # 
+      APPLE_ICON                     '\U'$CODEPOINT_OF_AWESOME_APPLE              # 
       FREEBSD_ICON                   $'\U1F608 '            # 😈
       LINUX_ICON                     $'\UE271'              # 
       SUNOS_ICON                     $'\U1F31E '            # 🌞
-      HOME_ICON                      $'\UE12C'              # 
+      HOME_ICON                      '\U'$CODEPOINT_OF_AWESOME_HOME              # 
       FOLDER_ICON                    $'\UE818'              # 
-      NETWORK_ICON                   $'\UE1AD'              # 
+      NETWORK_ICON                   $'\UF424 '              # 
+      # NETWORK_ICON                   $'\UF1EB'              # 
       LOAD_ICON                      $'\UE190 '             # 
       #RAM_ICON                       $'\UE87D'             # 
       RAM_ICON                       $'\UE1E2 '             # 
-      VCS_UNTRACKED_ICON             $'\UE16C'              # 
-      VCS_UNSTAGED_ICON              $'\UE17C'              # 
-      VCS_STAGED_ICON                $'\UE168'              # 
+      VCS_UNTRACKED_ICON             $'\UF406'              # 
+      # VCS_UNSTAGED_ICON              $'\UF406'              # 
+      # VCS_STAGED_ICON                $'\UE168'              # 
+      VCS_UNSTAGED_ICON                $'\U2022'              # 
       VCS_STASH_ICON                 $'\UE133 '             # 
       #VCS_INCOMING_CHANGES_ICON     $'\UE1EB '             # 
       #VCS_INCOMING_CHANGES_ICON     $'\UE80D '             # 
-      VCS_INCOMING_CHANGES_ICON      $'\UE131 '             # 
+      VCS_INCOMING_CHANGES_ICON      $'\UF175 '             # 
       #VCS_OUTGOING_CHANGES_ICON     $'\UE1EC '             # 
       #VCS_OUTGOING_CHANGES_ICON     $'\UE80E '             # 
-      VCS_OUTGOING_CHANGES_ICON      $'\UE132 '             # 
-      VCS_TAG_ICON                   $'\UE817 '             # 
-      VCS_BOOKMARK_ICON              $'\UE87B'              # 
-      VCS_COMMIT_ICON                $'\UE821 '             # 
-      VCS_BRANCH_ICON                $'\UE220'              # 
-      VCS_REMOTE_BRANCH_ICON         ' '$'\UE804 '          # 
-      VCS_GIT_ICON                   $'\UE20E '             # 
+      VCS_OUTGOING_CHANGES_ICON      $'\UF176 '             # 
+      VCS_TAG_ICON                   $'\UF02B '             # 
+      VCS_BOOKMARK_ICON              $'\UF113'              # 
+      VCS_COMMIT_ICON                '\U'$CODEPOINT_OF_OCTICONS_GIT_COMMIT             # 
+      VCS_BRANCH_ICON                '\UE725 '              # 
+      VCS_REMOTE_BRANCH_ICON         ' '$'\U020 '          # 
+      VCS_GIT_ICON                   $'\UF406'             # 
       VCS_HG_ICON                    $'\UE1C3 '             # 
     )
   ;;
@@ -79,9 +81,9 @@ case $POWERLEVEL9K_MODE in
       RIGHT_SUBSEGMENT_SEPARATOR     $'\UE0B3'              # 
       CARRIAGE_RETURN_ICON           $'\U21B5'              # ↵
       ROOT_ICON                      $'\uF201'              # 
-      RUBY_ICON                      $'\UF247'              # 
+      RUBY_ICON                      $'\UE791'              # 
       AWS_ICON                       $'\UF296'              # 
-      BACKGROUND_JOBS_ICON           $'\UF013 '             # 
+      BACKGROUND_JOBS_ICON           $'U' # $'\UF013 '             # 
       TEST_ICON                      $'\UF291'              # 
       TODO_ICON                      $'\U2611'              # ☑
       BATTERY_ICON                   $'\u1F50B'             # 🔋
@@ -91,7 +93,7 @@ case $POWERLEVEL9K_MODE in
       NODE_ICON                      $'\U2B22'              # ⬢
       MULTILINE_FIRST_PROMPT_PREFIX  $'\U256D'$'\U2500'     # ╭─
       MULTILINE_SECOND_PROMPT_PREFIX $'\U2570'$'\U2500 '    # ╰─
-      APPLE_ICON                     $'\UF179'              # 
+      APPLE_ICON                     $'\U'$CODEPOINT_OF_AWESOME_APPLE              # 
       FREEBSD_ICON                   $'\U1F608 '            # 😈
       LINUX_ICON                     $'\UF17C'              # 
       SUNOS_ICON                     $'\UF185 '             # 
@@ -126,7 +128,7 @@ case $POWERLEVEL9K_MODE in
       RIGHT_SUBSEGMENT_SEPARATOR     $'\UE0B3'              # 
       CARRIAGE_RETURN_ICON           $'\U21B5'              # ↵
       ROOT_ICON                      $'\u26A1'              # ⚡
-      RUBY_ICON                      ''
+      RUBY_ICON                      $'\UE791'
       AWS_ICON                       'AWS:'
       BACKGROUND_JOBS_ICON           $'\u2699'              # ⚙
       TEST_ICON                      ''
